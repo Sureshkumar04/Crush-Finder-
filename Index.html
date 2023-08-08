@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crush Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find ur <span>Crush here..!</span></h1>
+        <div class="content-01">
+            <div class="heart-01">
+                <div class="heart">
+                    <img src="heart.png">
+                </div>
+            </div>
+            <div class="content">
+                <div class="inputname">
+                    <label for="crushName">Enter your Sweet name</label>
+                    <input type="text" id="crushName" placeholder="Enter ur name">
+                </div>
+                <div class="dob">
+                    <label for="dateOfBirth">Date of birth</label>
+                    <input type="date" id="dateOfBirth" placeholder="Date of Birth">
+                </div>
+                <button onclick="checkCrush()">Find <i class="fa-solid fa-heart" style="color: #ffffff; font-size: 0.7rem;"></i></button>
+                <img id="crushImage" src="Emoji.png" style="display: none; width: 50px;" alt="Crush Image">
+                <p id="result"></p>
+            </div>          
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/bc8beb3c05.js" crossorigin="anonymous"></script>
+   <script src="Script.js"></script>
+</body>
+</html>
